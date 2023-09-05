@@ -5,7 +5,7 @@ import pytest
 from M2Crypto import BIO
 from M2Crypto import SMIME
 from M2Crypto import X509
-from path import Path
+from pathlib import Path
 
 from passbook.models import Barcode, BarcodeFormat, CurrencyField, Pass, StoreCard
 
